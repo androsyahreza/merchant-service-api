@@ -1,0 +1,21 @@
+@startuml merchant-service-@endboard
+entity merchant {
+  * id INT AUTO INCREMENT <<PK>>
+  --
+  * name VARCHAR
+  * email VARCHAR
+  * password VARCHAR 
+  * address TEXT
+  * phone_number VARCHAR
+}
+entity product{
+  * id INT AUTO INCREMENT <<PK>>
+  --
+  * name VARCHAR
+  * quantity INT
+  * price INT
+  --
+  merchantId <<FK>>
+}
+merchant ||--|{ product
+@endpuml
