@@ -38,7 +38,7 @@ RESTful API Endpoints are shown in the table below:
 ## Setup
 To run this project, install it locally using npm:
 ```
-$ cd provinces-cities-api
+$ cd merchant-service-api
 $ npm install
 $ npm start
 ```
