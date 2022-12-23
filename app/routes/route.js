@@ -19,7 +19,7 @@ router.put("/merchant/:merchantId/product/:id", authMiddleware.isAuthenticate, p
 router.delete("/merchant/:merchantId/product/:id", authMiddleware.isAuthenticate, productController.deleteProduct);
 
 // Auth Routes
-router.post("/login", authController.login);
-router.post("/register", authController.register);
+router.post("/auth/login", authController.login);
+router.post("/auth/register", authController.register);
 
 module.exports = router;
