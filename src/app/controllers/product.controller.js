@@ -1,7 +1,7 @@
 const { SuccessResponse, FailedResponse } = require("../helpers/api.response")
 const { ProductValidator } = require("../validators/validator")
 const { StatusCodes } = require("http-status-codes");
-const { Product } = require("../../models/index")
+const { Product } = require("../../database/models/index")
 
 const addProduct = async (req, res) => {
   try  {

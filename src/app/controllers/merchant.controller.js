@@ -1,7 +1,7 @@
 const { SuccessResponse, FailedResponse } = require("../helpers/api.response")
 const { MerchantValidator } = require("../validators/validator")
 const { StatusCodes } = require("http-status-codes");
-const { Merchant, Product } = require("../../models/index");
+const { Merchant, Product } = require("../../database/models/index");
 
 const getMerchant = async (req, res) => {
   try  {

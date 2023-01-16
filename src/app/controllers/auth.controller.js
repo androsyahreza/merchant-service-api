@@ -2,7 +2,7 @@ const { FailedResponse, SuccessResponse, LoginSuccessResponse } = require("../he
 const { GenerateToken, ComparePassword } = require("../helpers/authentification");
 const { MerchantValidator } = require("../validators/validator");
 const { StatusCodes } = require("http-status-codes");
-const { Merchant } = require("../../models/index");
+const { Merchant } = require("../../database/models/index");
 
 const register = async (req, res) => {
   try {
