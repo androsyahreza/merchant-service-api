@@ -23,17 +23,17 @@ Project is created with:
 RESTful API Endpoints are shown in the table below:
 | Method | Endpoint | Description |
 | --- | --- | --- |
-| POST | `/register` | Register merchant as user |
-| POST | `/login` | Login merchant |
-| GET | `/merchant` | list of merchants |
-| GET | `/merchant/{id}` | Get a merchant |
-| PUT | `/merchant/{id}` | Update a merchant |
-| DELETE | `/merchant/{id}` | Delete a merchant |
-| POST | `/merchant/product` | Add product |
-| GET | `/merchant/{merchantId}/product` | Get products from a merchant |
-| GET | `/merchant/{merchantId}/product/{id}` | Get a specific product from a merchant |
-| PUT | `/merchant/{merchantId}/product/{id}` | Update a specific product from a merchant |
-| DELETE | `/merchant/{merchantId}/product/{id}` | Delete a specific product from a merchant |
+| POST | `/api/auth/register` | Register merchant as user |
+| POST | `/api/auth/login` | Login merchant |
+| GET | `/api/merchant` | list of merchants |
+| GET | `/api/merchant/{id}` | Get a merchant |
+| PUT | `/api/merchant/{id}` | Update a merchant |
+| DELETE | `/api/merchant/{id}` | Delete a merchant |
+| POST | `/api/merchant/product` | Add product |
+| GET | `/api/merchant/{merchantId}/product` | Get products from a merchant |
+| GET | `/api/merchant/{merchantId}/product/{id}` | Get a specific product from a merchant |
+| PUT | `/api/merchant/{merchantId}/product/{id}` | Update a specific product from a merchant |
+| DELETE | `/api/merchant/{merchantId}/product/{id}` | Delete a specific product from a merchant |
 
 ## Setup
 To run this project, install it locally using npm:
